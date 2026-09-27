@@ -302,6 +302,8 @@ config.libs = [
         "progress_category": "game",
         "objects": [
             Object(Matching, "main.c"),
+            Object(Matching, "thunks_80004E40.s"),
+            Object(Matching, "thunks_80004E80.s"),
             Object(Matching, "sbss2.s"),
         ],
     },

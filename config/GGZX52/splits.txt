@@ -10,4 +10,10 @@ Sections:
 	.sdata2     type:rodata align:32
 
 main.c:
-	.text       start:0x80004E10 end:0x80004E24
+	.text       start:0x80004E10 end:0x80004E40
+
+thunks_80004E40.s:
+	.text       start:0x80004E40 end:0x80004E80
+
+thunks_80004E80.s:
+	.text       start:0x80004E80 end:0x80005208
