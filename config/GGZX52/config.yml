@@ -1,0 +1,9 @@
+object: orig/GGZX52/sys/main.dol
+hash: 2421d0ff8f3131943f96a18b7f963bae77e1dab8
+symbols: config/GGZX52/symbols.txt
+splits: config/GGZX52/splits.txt
+ldscript_template: config/GGZX52/ldscript.tpl
+symbols_known: true
+block_relocations:
+  - target: 0x802E5300
+    end: 0x802E63DF
