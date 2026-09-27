@@ -301,6 +301,7 @@ config.libs = [
         "cflags": cflags_base,
         "progress_category": "game",
         "objects": [
+            Object(Matching, "main.c"),
             Object(Matching, "sbss2.s"),
         ],
     },
